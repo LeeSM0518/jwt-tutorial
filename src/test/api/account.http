@@ -1,0 +1,28 @@
+### 회원가입
+POST http://localhost:3103/api/signup
+Content-Type: application/json
+
+{
+  "username": "nalsm95",
+  "password": "1234",
+  "name": "이상민",
+  "phone": "010-7188-9608",
+  "email": "nalsm0518@gmail.com"
+}
+
+### 로그인
+POST http://localhost:3103/api/signin
+Content-Type: application/json
+
+{
+  "username": "nalsm95",
+  "password": "1234"
+}
+
+### 비밀번호 변경
+POST http://localhost:3103/api/resetpassword
+Content-Type: application/json
+
+{
+  "email": ""
+}
